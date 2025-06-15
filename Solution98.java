@@ -4,7 +4,7 @@ class TreeNode {
     TreeNode(int x) { val = x; }
 }
 
-public class Solution98 {
+class Solution98 {
     public boolean isValidBST(TreeNode root) {
         return helper(root, null, null);
     }

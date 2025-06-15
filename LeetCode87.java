@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
-public class Leetcode87 {
+class Leetcode87 {
     static class Solution {
         Map<String, Boolean> memo = new HashMap<>();
 

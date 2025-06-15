@@ -4,7 +4,7 @@ class ListNode {
     ListNode(int x) { val = x; }
 }
 
-public class ReverseLinkedListII {
+class ReverseLinkedListII {
     public static ListNode reverseBetween(ListNode head, int left, int right) {
         if (head == null || left == right) return head;
         ListNode dummy = new ListNode(0);

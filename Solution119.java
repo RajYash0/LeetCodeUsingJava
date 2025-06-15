@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class PascalTriangleII {
+class PascalTriangleII {
     public static List<Integer> getRow(int rowIndex) {
         List<Integer> row = new ArrayList<>();
         row.add(1);

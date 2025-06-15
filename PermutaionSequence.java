@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class PermutationSequence {
+class PermutationSequence {
     public String getPermutation(int n, int k) {
         List<Integer> nums = new ArrayList<>();
         for (int i = 1; i <= n; i++) nums.add(i);

@@ -1,6 +1,7 @@
-import java.util.*;
-
-public class TriangleMinimumPath {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+class TriangleMinimumPath {
     public static int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
         int[] dp = new int[n];

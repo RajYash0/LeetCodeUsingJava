@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class LongestSubstring {
+class LongestSubstring {
     public static int lengthOfLongestSubstring(String s) {
         HashMap<Character, Integer> charIndexMap = new HashMap<>();
         int maxLength = 0;

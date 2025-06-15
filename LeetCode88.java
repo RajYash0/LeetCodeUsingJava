@@ -1,6 +1,6 @@
-import java.util.*;
+import java.util.Arrays;
 
-public class Leetcode88 {
+class Leetcode88 {
     static class Solution {
         public void merge(int[] nums1, int m, int[] nums2, int n) {
             int i = m - 1, j = n - 1, k = m + n - 1;

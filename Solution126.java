@@ -15,7 +15,7 @@ class Solution {
             String word = queue.poll();
             for (String neighbor : getNeighbors(word, wordSet)) {
                 if (!distance.containsKey(neighbor)) {
-                    distance.put(neighbor, distance.get(word) + 1);
+                    distance.put(neighbor, distance.get(word) + 1 );
                     queue.offer(neighbor);
                 }
                 if (distance.get(neighbor) == distance.get(word) + 1) {
