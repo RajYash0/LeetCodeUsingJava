@@ -47,5 +47,6 @@ public class SetMatrixZeroes {
                 System.out.print(matrix[i][j] + " ");
             System.out.println();
         }
+        sc.close();
     }
 }

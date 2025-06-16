@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class MaximumSubarray {
     public static int maxSubArray(int[] nums) {

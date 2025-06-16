@@ -24,5 +24,6 @@ class Main {
         int divisor = sc.nextInt();
         Main solution = new Main();
         System.out.println(solution.divide(dividend, divisor));
+        sc.close();
     }
 }

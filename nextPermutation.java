@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class Solution {
     public void nextPermutation(int[] nums) {
@@ -43,5 +43,6 @@ class Solution {
         for (int num : nums) {
             System.out.print(num + " ");
         }
+        sc.close();
     }
 }

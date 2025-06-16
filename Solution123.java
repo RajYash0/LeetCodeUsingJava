@@ -10,7 +10,6 @@ class Solution {
                 maxDiff = Math.max(maxDiff, dp[k - 1][i] - prices[i]);
             }
         }
-
         return dp[2][n - 1];
     }
 }

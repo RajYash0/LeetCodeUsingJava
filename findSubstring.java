@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
@@ -6,7 +9,6 @@ class Solution {
         if (s == null || s.length() == 0 || words == null || words.length == 0) return result;
 
         int wordLength = words[0].length();
-        int totalLength = wordLength * words.length;
         Map<String, Integer> wordCount = new HashMap<>();
 
         for (String word : words) {

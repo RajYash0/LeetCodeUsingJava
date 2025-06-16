@@ -25,5 +25,6 @@ public class Search2DMatrix {
                 matrix[i][j] = sc.nextInt();
         int target = sc.nextInt();
         System.out.print(new Search2DMatrix().searchMatrix(matrix, target));
+        sc.close();
     }
 }
