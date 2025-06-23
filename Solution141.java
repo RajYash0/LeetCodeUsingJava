@@ -24,7 +24,7 @@ public class Solution141 {
         ListNode third = new ListNode(0);
         ListNode fourth = new ListNode(-4);
 
-        head.next = second;
+        head.next = second; 
         second.next = third;
         third.next = fourth;
         fourth.next = second; // creates a cycle
