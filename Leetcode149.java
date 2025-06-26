@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
-public class Leetcode149 {
+class Leetcode149 {
     public static void main(String[] args) {
         Solution149 sol = new Solution149();
         int[][] points = { {1,1}, {2,2}, {3,3} };
