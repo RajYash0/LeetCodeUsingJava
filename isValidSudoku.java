@@ -13,8 +13,7 @@ class Solution {
                 if (rows[i][num] || cols[j][num] || boxes[boxIndex][num]) return false;
                 rows[i][num] = true;
                 cols[j][num] = true;
-                boxes[boxIndex][num] = true;
-            }
+             }
         }
         return true;
     }
