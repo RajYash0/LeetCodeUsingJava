@@ -2,7 +2,7 @@ class Solution {
     static final int MOD = (int)1e9 + 7;
 
     int[] p, pre;
-    int[][] st; // st[i] = {v, c}
+    int[][] st;
 
     int[] merge(int[] a, int[] b) {
         return new int[]{(int)((1L * a[0] * p[b[1]] + b[0]) % MOD), a[1] + b[1]};
